@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "Assets/*": ["assets/*"],
+      "Config/*": ["src/config/*"],
+      "Services/*": ["src/services/*"],
+      "Screens/*": ["src/screens/*"],
+      "Shells/*": ["src/screen-shells/*"],
+      "GlobalComponents/*": ["src/components/*"],
+      "Utils/*": ["src/utils/*"],
+      "Hooks/*": ["src/hooks/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
